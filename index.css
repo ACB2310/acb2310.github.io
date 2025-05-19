@@ -1,0 +1,89 @@
+/* Estilo general */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f8f1e7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Encabezado principal */
+header {
+  background-color: #caa472;
+  padding: 30px 20px;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Menú de navegación */
+nav {
+  background-color: #d8b58b;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #5a3518;
+}
+
+/* Secciones de contenido */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  color: #a46d3c;
+  border-bottom: 2px solid #caa472;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+section p {
+  margin-bottom: 20px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #caa472;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+}
