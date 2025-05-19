@@ -1,0 +1,21 @@
+{
+  "name": "huellas-de-honor",
+  "version": "1.0.0",
+  "description": "Sitio web para la empresa de mascotas Huellas de Honor",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "build": "echo 'No hay build configurado todavía'"
+  },
+  "keywords": [
+    "mascotas",
+    "chalecos",
+    "web",
+    "huellas-de-honor"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
